@@ -16,8 +16,7 @@ function App() {
      {/* <LandingPage/>
      <SignIn /> 
      <SignUp /> */}
-     <Wishlist/>
-    </header>
+     <Wishlist/>    </header>
   );
 }
 
