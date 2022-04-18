@@ -1,7 +1,7 @@
 import Footer from './Footer/Footer'
 import Header from './Header/Header'
 import LandingPage from './LandingPage/LandingPage'
-import ProductsPage from './ProductsPage/ProductsPage'
+import ProductsFilter from './ProductsFilter/ProductsFilter'
 import ProductCard from './ProductCard/ProductCard'
 
-export {Footer, Header, LandingPage, ProductsPage, ProductCard}
+export {Footer, Header, LandingPage, ProductsFilter, ProductCard}

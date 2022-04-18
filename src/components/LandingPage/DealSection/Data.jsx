@@ -45,4 +45,4 @@ const DealsData = [{
 }
 ]
 
-export { Data, DealsData } 
+export  { Data, DealsData } 

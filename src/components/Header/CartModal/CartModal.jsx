@@ -52,4 +52,4 @@ const CartModal = ({showModalToggle}) => {
   )
 }
 
-export default CartModal
+export default {CartModal}

@@ -1,0 +1,59 @@
+  .products-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height:fit-content;
+    margin-top:3rem;
+
+  }
+  .ecom-card {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+  }
+  .ecom-card:hover {
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+ }
+    
+  .ecom-img {
+    height: 8.875rem;
+    background-color: var(--light-bg-2);
+    padding: 1rem 2.5rem;
+  }
+  
+  .card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .card-title {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  .ecom-card:hover .card-title {
+    font-weight: var(--font-weight-1);
+    color: var(--light-bg-1);
+  }
+  .card-rating {
+    padding: 2px 4px;
+    background-color: var(--light-bg-1);
+    color: white;
+    border-radius: 4px;
+    font-size: var(--font-size-7);
+    margin-right: 5px;
+  }
+  .card-bought {
+    color: gray;
+  }
+  .strikeoff {
+    text-decoration: line-through;
+    color: grey;
+  }
+  .card-discount {
+    font-weight: 700;
+    color: var(--light-bg-1);
+  }
+  .card-disprice {
+    font-weight: var(--font-weight-1);
+  }

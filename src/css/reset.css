@@ -1,0 +1,48 @@
+  body {
+    background-color: var(--primary-color);
+    font-family: "Taviraj", serif;
+    margin: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .underline-l {
+    border-bottom: 1px solid black;
+    width: 25%;
+  }
+  .underline-s {
+    border-bottom: 1px solid black;
+    width: 10%;
+  }
+  .scroller {
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+  }
+  .mg-l {
+    margin-left: 3rem;
+  }
+  
+  .dark-clr {
+    color: var(--dark-bg);
+  }
+  .light-clr {
+    color: var(--light-bg-2);
+  }
+  .white-clr {
+    color: var(--white-color);
+  }
+  .sec-clr {
+    color: var(--secondary-color);
+  }
+  .pr-bg {
+    background-color: var(--primary-color);
+  }
+  .light-bg {
+    background-color: var(--light-bg-2);
+  }
+  .dark-bg {
+    background-color: var(--dark-bg);
+  }

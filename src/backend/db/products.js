@@ -1,5 +1,4 @@
 import { v4 as uuid } from "uuid";
-
 import { 
   iImg1, iImg2, iImg3, 
   iImg4, iImg5, iImg6, 
@@ -13,70 +12,70 @@ import {
 
 export const products = [
   {
-    product1:{
-        id:uuid(),
-        img:iImg1,
-        prodTitle:'Way Kambas Maple',
-        prodRating:'4.1',
-        prodBought:'(49)',
-        prodPrePrice:'Rs 36,000',
-        prodDiscPrice:'Rs 25,000',
-        prodDisc:'16% off'
-    },
-    product2:{
-        id:uuid(),
-        img:iImg1,
-        prodTitle:'Way Kambas Maple',
-        prodRating:'4.1',
-        prodBought:'(49)',
-        prodPrePrice:'Rs 36,000',
-        prodDiscPrice:'Rs 25,000',
-        prodDisc:'16% off'
-    },
-    product3:{
-        id:uuid(),
-        img:iImg1,
-        prodTitle:'Way Kambas Maple',
-        prodRating:'4.1',
-        prodBought:'(49)',
-        prodPrePrice:'Rs 36,000',
-        prodDiscPrice:'Rs 25,000',
-        prodDisc:'16% off'
-    },
-    product4:{
-        id:uuid(),
-        img:iImg1,
-        prodTitle:'Way Kambas Maple',
-        prodRating:'4.1',
-        prodBought:'(49)',
-        prodPrePrice:'Rs 36,000',
-        prodDiscPrice:'Rs 25,000',
-        prodDisc:'16% off'
-    },
-    
-}
-  // {
-  //   _id: uuid(),
-  //   title: "You Can WIN",
-  //   author: "Shiv Khera",
-  //   price: "5000",
-  //   categoryName: "non-fiction",
-  // },
-  // {
-  //   _id: uuid(),
-  //   title: "You are Winner",
-  //   author: "Junaid Qureshi",
-  //   price: "3000",
-  //   categoryName: "horror",
-  // },
-  // {
-  //   _id: uuid(),
-  //   title: "Think and Grow Rich",
-  //   author: "Shiv Khera",
-  //   price: "1000",
-  //   categoryName: "fiction",
-  // },
+    _id: uuid(),
+    title: "Red T-Shirt",
+    price: "999",
+    discount: "40",
+    categoryName: "T-Shirts",
+    rating: "4",
+    inStock: true,
+    isFeatured: true,
+    isDeliverable: true,
+    isFastDeliverable:true,
+    isLatest: false,
+    badge: "New",
+    imageSrc: iImg1,
+    timesBought: 35,
+    description:
+      "Give your summer wardrobe a style upgrade with this Men's Active T-Shirt.Team it with a pair of shorts for your morning workout or a denims for an evening out.",
+    sizes: ["XXL", "XL", "L", "M"],
+  },
+  
 ];
 
 export default products
 
+
+
+ // product1:{
+    //     _id:uuid(),
+    //     img:iImg1,
+    //     prodTitle:'Way Kambas Maple',
+    //     prodRating:'4.1',
+    //     prodBought:'(49)',
+    //     prodPrePrice:'Rs 36,000',
+    //     prodDiscPrice:'Rs 25,000',
+    //     prodDisc:'16% off'
+    // },
+    // product2:{
+    //     _id:uuid(),
+    //     img:iImg1,
+    //     prodTitle:'Way Kambas Maple',
+    //     prodRating:'4.1',
+    //     prodBought:'(49)',
+    //     prodPrePrice:'Rs 36,000',
+    //     prodDiscPrice:'Rs 25,000',
+    //     prodDisc:'16% off'
+    // },
+    // product3:{
+    //     _id:uuid(),
+    //     img:iImg1,
+    //     prodTitle:'Way Kambas Maple',
+    //     prodRating:'4.1',
+    //     prodBought:'(49)',
+    //     prodPrePrice:'Rs 36,000',
+    //     prodDiscPrice:'Rs 25,000',
+    //     prodDisc:'16% off'
+    // },
+    // product4:{
+    //     _id:uuid(),
+    //     img:iImg1,
+    //     prodTitle:'Way Kambas Maple',
+    //     prodRating:'4.1',
+    //     prodBought:'(49)',
+    //     prodPrePrice:'Rs 36,000',
+    //     prodDiscPrice:'Rs 25,000',
+    //     prodDisc:'16% off'
+    // },
+    
+// }
